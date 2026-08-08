@@ -4,6 +4,8 @@ Compact agent skill **`gh-stack-compact`** for [`gh stack`](https://github.com/g
 
 Named to avoid colliding with GitHub’s official **`gh-stack`** skill. Not affiliated. Assumes agents can read `gh stack <cmd> --help` and only caches gotchas.
 
+Origin: [github/gh-stack#377](https://github.com/github/gh-stack/issues/377) (skill verbosity) — [minimal-skill proposal comment](https://github.com/github/gh-stack/issues/377#issuecomment-5147221894).
+
 ## Install
 
 ```bash
