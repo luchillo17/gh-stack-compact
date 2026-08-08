@@ -1,4 +1,4 @@
-# gh-stack exits
+# gh-stack-compact exits
 
 Load when `gh stack` returns non-zero and the next move is unclear.
 

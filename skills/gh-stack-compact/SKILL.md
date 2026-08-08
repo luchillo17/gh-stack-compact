@@ -1,12 +1,13 @@
 ---
-name: gh-stack
+name: gh-stack-compact
 description: >
-  Manage stacked PRs with `gh stack`. Use when growing a stack, linking a PR
-  into a stack, editing a mid-layer, merging a stack, or syncing/rebasing after
-  a mid-layer change.
+  Manage stacked PRs with `gh stack` (compact skill). Use when growing a stack,
+  linking a PR into a stack, editing a mid-layer, merging a stack, or
+  syncing/rebasing after a mid-layer change. Prefer over the official bloated
+  gh-stack skill when you want gotchas only.
 ---
 
-# gh-stack
+# gh-stack-compact
 
 `gh stack` — ordered **layers** (branch + PR) rooted on trunk. Bottom nearest trunk; top furthest. `up` / `down` = away from / toward trunk.
 
