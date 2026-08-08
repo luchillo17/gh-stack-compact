@@ -1,4 +1,4 @@
-# gh-stack-skill
+# gh-stack-compact
 
 Compact agent skill **`gh-stack-compact`** for [`gh stack`](https://github.com/github/gh-stack) — non-interactive rules, **membership**, recipes. Exit codes live in `exits.md` (progressive disclosure).
 
@@ -9,9 +9,9 @@ Origin: [github/gh-stack#377](https://github.com/github/gh-stack/issues/377) (sk
 ## Install
 
 ```bash
-npx skills add luchillo17/gh-stack-skill
+npx skills add luchillo17/gh-stack-compact
 # or:
-npx skills add luchillo17/gh-stack-skill --skill gh-stack-compact
+npx skills add luchillo17/gh-stack-compact --skill gh-stack-compact
 ```
 
 Also install the CLI extension (once per machine):
