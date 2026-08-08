@@ -10,11 +10,11 @@ Origin: [github/gh-stack#377](https://github.com/github/gh-stack/issues/377) (sk
 
 Counts via `cl100k_base` / `o200k_base` (same for these files ±1). Re-measure after edits.
 
-| Load | File | Tokens |
-| --- | --- | ---: |
-| Always (skill body) | `SKILL.md` | ~680 |
-| On demand | `exits.md` | ~300 |
-| Worst case (both) | | ~980 |
+| Load                | File       | Tokens |
+| ------------------- | ---------- | -----: |
+| Always (skill body) | `SKILL.md` |   ~680 |
+| On demand           | `exits.md` |   ~300 |
+| Worst case (both)   |            |   ~980 |
 
 Official skill in [#377](https://github.com/github/gh-stack/issues/377) was reported at **~15.6k tokens** — this compact skill aims for ~20× less on the always-loaded path.
 
