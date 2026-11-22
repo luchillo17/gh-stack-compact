@@ -8,13 +8,13 @@ Origin: [github/gh-stack#377](https://github.com/github/gh-stack/issues/377) (sk
 
 ## Token budget
 
-Counts via `cl100k_base` / `o200k_base` (same for these files ±1). Re-measure after edits.
+Rounded counts from `cl100k_base` and `o200k_base`. Re-measure after edits.
 
 | Load                | File       | Tokens |
 | ------------------- | ---------- | -----: |
 | Always (skill body) | `SKILL.md` |   ~680 |
-| On demand           | `exits.md` |   ~300 |
-| Worst case (both)   |            |   ~980 |
+| On demand           | `exits.md` |   ~430 |
+| Worst case (both)   |            | ~1,110 |
 
 ## Install
 
